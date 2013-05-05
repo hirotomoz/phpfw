@@ -48,9 +48,9 @@ class DbManager
 	/*
 	 * Repositoryクラスに対応する接続名をセット
 	 */
-	public function setRepositoryConnectionMap($repository_name)
+	public function setRepositoryConnectionMap($repository_name, $name)
 	{
-		$this->repository_connection_map[$repository_name];
+		$this->repository_connection_map[$repository_name] = $name;
 	}
 
 	/*
